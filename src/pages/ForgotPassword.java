@@ -23,7 +23,7 @@ public class ForgotPassword {
         txtEmail.sendKeys(email);
     }
 
-    public void clichReset()
+    public void clickReset()
     {
         btnReset.click();
     }

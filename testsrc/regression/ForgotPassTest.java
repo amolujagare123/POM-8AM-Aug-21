@@ -22,7 +22,7 @@ public class ForgotPassTest {
 
         ForgotPassword forgotPassword = new ForgotPassword(driver);
         forgotPassword.setTxtEmail("amol@gmail.com");
-        forgotPassword.clichReset();
+        forgotPassword.clickReset();
 
     }
 }
