@@ -1,4 +1,4 @@
-package regression;
+package regression.Clients;
 
 import org.testng.annotations.Test;
 import pages.Clients.AddClient;
@@ -15,18 +15,18 @@ public class AddClientTest extends DoLogin {
 
         AddClient addClient = new AddClient(driver);
 
-        addClient.setLanguage("Thai");
-        addClient.setCountry("Jordan");
-        addClient.setGender("Female");
-        addClient.setClientBirthDate("12/05/1985"); // MM/dd/yyyy
 
-      /*  addClient.setClientName("Rahul");
-        addClient.setClientSurname("ujagare");
+        addClient.setClientName("Anjali");
+        addClient.setClientSurname("abcd");
+        addClient.setLanguage("Thai");
         addClient.setClientAdd1("xyz");
         addClient.setClientAdd2("pqr");
         addClient.setClientCity("pune");
         addClient.setClientState("MH");
         addClient.setClientZip("78787878");
+        addClient.setCountry("Jordan");
+        addClient.setGender("Female");
+        addClient.setClientBirthDate("12/05/1985"); // MM/dd/yyyy
         addClient.setClientPhone("78787878");
         addClient.setClientFax("78787878");
         addClient.setClientMobile("78787878");
@@ -34,7 +34,7 @@ public class AddClientTest extends DoLogin {
         addClient.setClientWeb("www.gmail.com");
         addClient.setClientVat("42224");
         addClient.setClientTax("424424");
-        addClient.clickSave();*/
+        addClient.clickSave();
 
     }
 }
