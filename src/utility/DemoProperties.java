@@ -24,5 +24,8 @@ public class DemoProperties {
         System.out.println( prop.getProperty("pass"));
 
 
+
+
+
     }
 }
